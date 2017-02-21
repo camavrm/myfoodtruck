@@ -1,0 +1,93 @@
+body {
+	background-color: beige;
+	font-family: 'Open Sans', sans-serif;
+	/*text-align: center; */
+}
+
+h1{
+	color: #936f4b;
+	font-family: 'Barrio', cursive; 
+	font-size: 70px; 
+}
+
+h3{
+	color: #936f4b;
+}
+
+/*div{
+	border-top: 1px solid #809e90;
+	border-right: 2px dotted #809e90;
+	border-bottom: 1px dashed #809e90;
+	border-left: 2px dotted #809e90;
+}*/
+
+#header {
+	background-color: #809e90;
+	/*background-image: url(images/Burger.jpeg);*/
+	background-size: cover;
+	height: 100px;
+}
+
+.Daily-Meal{
+	font-size: 20px;
+}
+
+.menu-picture {
+	border-radius: 50%;
+	height: 150px; 
+	width: 150px; 
+	background-size: cover; 
+}
+
+#footer {
+	font-size: 50px; 
+}
+
+#footer a {
+	color: #809e90;
+}
+
+#footer a:hover {
+	color: #cccabb;
+}
+
+/*#my-title {
+	margin-top: 80px;
+}
+*/
+
+h4{
+	height: 60px;
+}
+
+/* How to override the default Bootstrap navbar */
+.navbar-transparent {
+  background-color: #809e90;
+}
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+#spacer-top {
+	padding-top: 200px;
+}
+
+.spacer {
+	height: 10em; 
+}
